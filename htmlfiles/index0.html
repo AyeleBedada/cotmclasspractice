@@ -64,7 +64,7 @@
     <input type="email" name="email" placeholder="Your email" required><br>
     <textarea name="message" placeholder="Details of your probslem"></textarea>
     <p>Attach image file.</p>
-    <input type="file" name="attachment" accept="image/png, image/jpeg"><br>
+    <input type="file" name="attachment" <!--accept="image/png, image/jpeg"--> ><br>
     <button type="submit">Send</button>
     <input type="hidden" name="_next" value="https://ayelebedada.github.io/cotmclasspractice/htmlfiles/Thank-you.html">
 </form>
@@ -83,20 +83,20 @@
             </div>
             <div class="form-group">
                 Do you want to get an update from us?
-                Yes:<input type="radio" name="yesorno" value=""> 
-                No:<input type="radio" name="yesorno" value="">
+                Yes:<input type="radio" name="yesupdates" value=""> 
+                No:<input type="radio" name="noupdates" value="">
             </div>
             <div class="form-group">  
                 Which of the following activities interest you the most from this course? <br> 
-                <input type="checkbox" name=""> Lectures<br> 
-                <input type="checkbox" name=""> Laboratory<br>
-                <input type="checkbox" name=""> Workshop<br> 
-                <input type="checkbox" name=""> Home Assignment<br> 
-                <input type="checkbox" name=""> Class Assignment<br>
+                <input type="checkbox" name="Lectures"> Lectures<br> 
+                <input type="checkbox" name="Laboratory"> Laboratory<br>
+                <input type="checkbox" name="Workshop"> Workshop<br> 
+                <input type="checkbox" name="assignment"> Home Assignment<br> 
+                <input type="checkbox" name="assignment"> Class Assignment<br>
             </div>
             
             <div class="form-group">
-                Which of the following courses are you taking during this semeter?
+                Which of the following courses are you taking during this semseter?
             <select name="course" size="4" multiple="multiple">
             <option value="Course01">Course01</option> 
             <option value="Course02">Course02</option>
